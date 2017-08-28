@@ -1,2 +1,2 @@
 # express-socket-demo
-express做后台，与前端建立socket通讯，应用小实例。
+express做后台，与前端建立socket通讯，未完待续，必须写个像样的可以装逼的！
