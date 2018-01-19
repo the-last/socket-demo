@@ -1,0 +1,100 @@
+.el-form-item.is-required .el-form-item__label:before {
+  content: none;
+}
+
+.el-input-group__append {
+  border-color: #50BFFF;
+
+  > .el-button {
+    border-radius: 0;
+
+    &.el-button--primary {
+      background: #50BFFF;
+      color: #FFFFFF;
+
+      &.is-disabled {
+        font-size: 0.75rem;
+        background: #E2E9F1;
+        color: #20a0ff;
+      }
+    }
+
+    &.el-button--warning {
+      background: #E2E9F1;
+      border-color: #E2E9F1;
+      color: #20a0ff;
+    }
+  }
+}
+
+.el-input {
+  > .el-input__icon.el-icon-check {
+    color: #81da81;
+  }
+}
+
+.el-form-item__label {
+  color: #5E6D82;
+}
+
+.el-table {
+  .cell{
+    word-break: normal;
+    white-space: nowrap;
+  }
+}
+
+.el-message {
+  border-top: 6px solid #3c8dbc;
+}
+
+.el-select {
+  width: 100%;
+}
+
+.el-popover {
+  border: 2px solid #3c8dbc;
+  border-radius: 3px;
+}
+
+.el-submenu__title {
+  background: #003469 !important;
+  border-left: 0px !important;
+}
+
+.el-submenu__title:hover {
+  border-left: 0px !important;
+  background: #003469 !important;
+}
+.el-submenu.is-active .el-submenu__title {
+  border-left: 0px !important;
+}
+.el-submenu.is-active .el-submenu__title:hover {
+  border-left: 0px !important;
+}
+.el-menu--dark .el-submenu__title:hover {
+  border-left: 0px !important;
+  background: #003469 !important;
+}
+.el-menu--dark .el-submenu .el-menu {
+  padding: 0px !important;
+}
+
+.el-menu--dark .el-submenu .el-menu .el-menu-item:hover {
+  background: #004FA0 !important;
+  color: #fff !important;
+}
+
+.el-menu {
+  padding: 0;
+}
+
+.el-menu-item {
+  color: #C0CCDA !important;
+  background: #002143 !important;
+}
+
+.el-menu-item .is-active {
+  background: #004FA0 !important;
+  color: #ffffff !important;
+}

@@ -1,0 +1,8 @@
+export const CHECK_USER_STATE = 'CHECK_USER_STATE'
+export const USER_LOGIN = 'USER_LOGIN'
+export const USER_LOGOUT = 'USER_LOGOUT'
+export const TOGGLE_SHOW_LOGIN = 'TOGGLE_SHOW_LOGIN'
+export const LOADING_REQUEST = 'LOADING_REQUEST'
+export const USER_TYPE = 'USER_TYPE'
+export const RANGEPROOF = 'RANGEPROOF'
+export const NAV_ITEM_SELECT = 'NAV_ITEM_SELECT'
