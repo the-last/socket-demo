@@ -93,6 +93,23 @@ section {
       margin-left: .8125rem;
       outline: none;
       text-indent: .5em;
+      font-size: 1.5rem;
+      &::-webkit-input-placeholder {
+        color: #bdbae0;
+        font-size: 1.5rem;
+      }
+      &:-moz-placeholder {
+        color: #bdbae0;
+        font-size: 1.5rem;
+      }
+      &::-moz-placeholder {
+        color: #bdbae0;
+        font-size: 1.5rem;
+      }
+      &:-ms-input-placeholder {
+        color: #bdbae0;
+        font-size: 1.5rem;
+      }
     }
     .btn-postion {
       float: right;
